@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      color: #1f2937;
+    }
+
+    /* HEADER */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    /* PROFILE IMAGE (2x2 FORMAL, NO DISTORTION) */
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: center;
+
+      border-radius: 8px; /* semi-formal square */
+      border: 2px solid #d1d5db;
+
+      display: block;
+      margin: 0 auto;
+    }
+
+    .hero h1 {
+      margin: 10px 0 5px;
+      font-size: 28px;
+    }
+
+    .hero h3 {
+      margin: 0;
+      font-weight: normal;
+      color: #6b7280;
+    }
+
+    /* CONTAINER */
+    .container {
+      width: 85%;
+      margin: auto;
+      padding: 20px 0;
+    }
+
+    /* BOX / CARD */
+    .card {
+      background: #ffffff;
+      padding: 18px;
+      margin: 15px 0;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    td {
+      padding: 8px;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin: 6px 0;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffffff;
+      border-top: 1px solid #e5e7eb;
+      color: #6b7280;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="hero">
+    <img src="akonato.jpg" class="profile-img" alt="Profile Picture">
+    <h1>John Kevin Delfin</h1>
+    <h3>Aspiring Cybersecurity & Information Security Specialist</h3>
+  </header>
+
+  <div class="container">
+
+    <!-- ABOUT -->
+    <section class="card">
+      <h2>About Me</h2>
+      <p>
+        I am a BS Information Technology student from Our Lady of the Sacred Heart College.
+        I am interested in technology, especially Cybersecurity and Information Security, and I enjoy learning how systems work.
+      </p>
+    </section>
+
+    <!-- DETAILS -->
+    <section class="card">
+      <h2>Personal Details</h2>
+      <table>
+        <tr><td><b>Full Name:</b></td><td>John Kevin L. Delfin</td></tr>
+        <tr><td><b>Age:</b></td><td>23</td></tr>
+        <tr><td><b>Email:</b></td><td>Johnkevindelfin9@gmail.com</td></tr>
+        <tr><td><b>Address:</b></td><td>Casongsong Guimba, Nueva Ecija</td></tr>
+      </table>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Basic understanding of computers and networks</li>
+        <li>Password security awareness</li>
+        <li>Cybersecurity mindset</li>
+      </ul>
+    </section>
+
+    <!-- INSPIRATION -->
+    <section class="card">
+      <h2>Inspiration</h2>
+      <p>
+        I chose the IT field because I am passionate about technology and problem-solving.
+        Programming helps me understand how systems work, while cybersecurity motivates me to protect data and systems from threats.
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>© 2026 My Portfolio</p>
+  </footer>
+
+</body>
+</html>
